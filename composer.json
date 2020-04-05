@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "opencart/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "test and job for our opencart project.",
     "keywords": [
         "framework",
         "laravel"
