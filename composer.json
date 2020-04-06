@@ -1,5 +1,5 @@
 {
-    "name": "scil/opencart-from-laravel",
+    "name": "scil/manager-opencart-by-laravel",
     "type": "project",
     "description": "Access and control OpenCart 3 from Laravel. Tests and jobs for  opencart projects.",
     "keywords": [
