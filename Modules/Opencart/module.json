@@ -1,0 +1,13 @@
+{
+    "name": "Opencart",
+    "alias": "opencart",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Opencart\\Providers\\OpencartServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

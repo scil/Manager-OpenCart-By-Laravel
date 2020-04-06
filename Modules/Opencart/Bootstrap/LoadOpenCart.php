@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Bootstrap;
+namespace Modules\Opencart\Bootstrap;
 
 use Illuminate\Contracts\Foundation\Application;
 use Symfony\Component\Console\Output\ConsoleOutput;
@@ -51,12 +51,18 @@ class LoadOpenCart
             $this->writeErrorAndDie('Const DB_DRIVER should be available.');
 
 
-        if (strpos(DB_DRIVER, 'mysql') === false)
-            $this->writeErrorAndDie('Database config should update in '
-                . $app->configPath('database.php')
-                . ', because OpenCart uses DB_DRIVER '
+	$db = array(
+		'mysql', 
+		'mysqli', 
+		'pgsql', 
+		'pdo'
+	);
+        if (!in_array(DB_DRIVER, $db)) 
+            $this->writeErrorAndDie('DatabaseServiceProvider.php should update in '
+                . ' Modules\Opencart\Providers, because OpenCart uses DB_DRIVER '
                 . DB_DRIVER
-                . ', instendof mysqli or pdo_mysql'
+                . ', instendof '
+                . implode(' ', $db)
             );
 
         if (!extension_loaded('pdo_mysql'))

@@ -70,7 +70,7 @@ class Kernel extends HttpKernel
 
     public function __construct(Application $app, Dispatcher $events)
     {
-        LoadOpenCart::$insetMeToKernelBootstrappers->call($this);
+        \Modules\Opencart\Bootstrap\LoadOpenCart::$insetMeToKernelBootstrappers->call($this);
         parent::__construct($app, $events);
     }
 }

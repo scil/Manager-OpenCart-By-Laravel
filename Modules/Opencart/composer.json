@@ -1,0 +1,25 @@
+{
+    "name": "scil/laravel-access-opencart-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "scil",
+            "email": "scil.zc@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Opencart\\Providers\\OpencartServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Opencart\\": ""
+        }
+    }
+}
