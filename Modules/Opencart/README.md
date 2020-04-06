@@ -24,3 +24,7 @@ If a class not found, run
 ```
 composer dump-autoload
 ```
+
+# Credit
+
+Some models origin from 2014 [oney/opencart-laravel](https://github.com/oney/opencart-laravel) and 2016 [exfriend/laracart](https://github.com/exfriend/laracart) with modification for OpenCart 3.
