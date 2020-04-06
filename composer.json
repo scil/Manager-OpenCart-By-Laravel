@@ -1,9 +1,9 @@
 {
-    "name": "opencart/laravel",
+    "name": "opencart/from-laravel",
     "type": "project",
-    "description": "test and job for our opencart project.",
+    "description": "Access and control OpenCart 3 from Laravel. Tests and jobs for  opencart projects.",
     "keywords": [
-        "framework",
+        "opencart",
         "laravel"
     ],
     "license": "MIT",
