@@ -8,6 +8,7 @@ Add following to app/Consoel/Kernel.php and app/Http/Kernel.php.
     public function __construct($app, $events)
     {
         \Modules\Opencart\Bootstrap\LoadOpenCart::$insetMeToKernelBootstrappers->call($this);
+
         parent::__construct($app, $events);
     }
 ```

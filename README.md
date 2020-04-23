@@ -11,3 +11,13 @@ Thanks for [nwidart/laravel-modules](https://github.com/nWidart/laravel-modules)
 # Env
 
 edit .env
+
+# Start
+
+`composer dump-autoload`
+
+shell
+```
+# then: Category::all()
+artisan tinker
+```
