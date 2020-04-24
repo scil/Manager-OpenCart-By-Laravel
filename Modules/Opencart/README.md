@@ -1,6 +1,6 @@
 
 
-# config
+# How to config for this module
 
 Add following to app/Consoel/Kernel.php and app/Http/Kernel.php.
 
@@ -13,7 +13,7 @@ Add following to app/Consoel/Kernel.php and app/Http/Kernel.php.
     }
 ```
 
-# start
+# Start
 
 ```
 # then you can use Models like Category defined in Modules\Opencart\Entities\
@@ -31,6 +31,9 @@ composer dump-autoload
 - use OpenCart front or admin config by add a bootstrap `Modules\Opencart\Bootstrap\LoadOpenCart.php`
 - bind something to Container: `opencart.admin`, `opencart.path`, `opencart.apppath`, and `opencart.adminpath`.
 - Communicate with opencart database with Laravel DB builder and Elequent.  how? to define some Model classes for opencart database.
+
+# Todo
+[ ] https://github.com/beyondit/opencart-test-suite
 
 # Credit
 
