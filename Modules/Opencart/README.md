@@ -33,8 +33,8 @@ composer dump-autoload
 - Communicate with opencart database with Laravel DB builder and Elequent.  how? to define some Model classes for opencart database.
 
 # Todo
-[ ] https://github.com/beyondit/opencart-test-suite
-[ ] https://github.com/opencorero/opencore
+- [ ] https://github.com/beyondit/opencart-test-suite
+- [ ] https://github.com/opencorero/opencore
 
 # Credit
 
