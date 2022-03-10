@@ -34,6 +34,7 @@ composer dump-autoload
 
 # Todo
 [ ] https://github.com/beyondit/opencart-test-suite
+[ ] https://github.com/opencorero/opencore
 
 # Credit
 
